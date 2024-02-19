@@ -1,0 +1,136 @@
+body
+{
+    background-image: url('img/dark.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+
+.container .title 
+{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 5rem;
+    color: aliceblue;
+    
+}
+.container form 
+{
+    
+    width: 900px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 1px 1px 5px 5px rgb(193, 121, 226);
+}
+* {
+  
+    box-sizing: border-box;
+  }
+ 
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 300px; 
+    
+    margin-top: 150px;
+   
+  }
+  .column input 
+  {
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 50px;
+    border: 2px solid rgb(207, 98, 240);
+    outline: none;
+
+  }
+.column label
+{
+   display: flex;
+   align-items: center;
+   
+   
+ 
+}
+.column label
+{
+   display: flex;
+   align-items: center;
+   margin-left: 10px;
+   margin-top: 15px;
+   border: 1px solid rgb(226, 176, 247);
+   font-weight: bold;
+   justify-content: center;
+   color:rgb(41, 3, 53);
+   background-color: rgb(196, 155, 235);
+   
+}
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  .row 
+  {
+
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 800px;
+    
+    margin-top: -150px;
+   
+  }
+ .btn 
+  {
+    display: flex;
+    justify-content: center;
+ 
+  }
+  .btn input 
+  {
+    padding:10px;
+    width: 800px;
+    background-color: red;
+    outline: none;
+    border: none;
+    background: rgb(235, 122, 235) ;
+    border: 2px solid rgb(236, 230, 234);
+    border-radius: 50px;
+    font-weight: bold;
+    color: rgb(23, 6, 82);
+    
+  }
+  .btn input:hover 
+  {
+    background-color:rgb(157, 33, 230);
+
+  }
+  .left
+  {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color: white;
+
+  }
+  .row .center
+  {
+    border:2px solid darkblue;
+    text-align: center;
+    justify-content: end;
+
+  }
